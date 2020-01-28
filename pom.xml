@@ -3,6 +3,11 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<modules>
+		<module>study-service-gateway</module>
+		<module>study-service-provider-content</module>
+		<module>study-service-consumer-content</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -69,8 +74,6 @@
 	</build>
 
 	<repositories>
-
-
 		<repository>
 			<id>gridgainsystems</id>
 			<name>gridgainsystems</name>
