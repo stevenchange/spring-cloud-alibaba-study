@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>study-service-gateway</module>
-		<module>study-service-provider-content</module>
-		<module>study-service-consumer-content</module>
+		<module>study-service-provider</module>
+		<module>study-service-consumer</module>
 	</modules>
 
 	<parent>

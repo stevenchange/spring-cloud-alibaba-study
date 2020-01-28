@@ -5,10 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.gaobo.alibaba</groupId>
-  <artifactId>study-service-provider-content</artifactId>
+  <artifactId>study-service-consumer</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>study-service-provider-content</name>
-  <packaging>jar</packaging>
+  <modules>
+    <module>study-service-consumer-content</module>
+  </modules>
 
-
+  <name>study-service-consumer</name>
+  <packaging>pom</packaging>
 </project>
